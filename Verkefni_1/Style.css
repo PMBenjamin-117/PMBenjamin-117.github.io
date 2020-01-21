@@ -1,0 +1,42 @@
+body	{background: #FFF89E;
+		border: 5px solid #47EB70;
+		padding: 20px;
+		margin: 30px;}
+
+h1	{color: #3BCBFF;
+	text-align: center;
+	font-size: 200%;}
+
+h2	{font-size: 170%;}
+
+h3	{font-size: 150%;}
+
+h4	{font-size: 100%;}
+
+h5	{font-size: 75%;}
+
+h6	{font-size: 50%;}
+
+p 	{font-size: 100%;
+	font-family: 'Playfair Display', serif;}
+
+div	{border: 2px solid #47EB70;}
+
+a 	{text-decoration: none;
+	color: red;}
+
+strong		{color: red;}
+
+ul li		{color: #DD3DFF;
+			font-size: 100%;}
+
+li			{font-family: 'Playfair Display', serif;}
+
+.ABC		{color: red;}
+.AI 		{color: blue;}
+.IUCA		{color: rgb(255, 0, 5);}
+.ICU 		{margin: 20px;}
+.ICBM		{color: rgb(194, 25, 28);
+			text-align: center;}
+.Imagine	{color: rgb(194, 25, 28);}
+.M 			{padding-left: 30px;}
