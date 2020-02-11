@@ -1,0 +1,60 @@
+body 		{display: grid;
+			grid-template-areas:
+			"head head head head"
+			"navbar day day day"
+			"navbar fight fight fight"
+			"navbar starts starts starts"
+			"foot foot foot foot";
+			background-color: #FFCAC1;}
+
+header 		{border: 3px solid #D0A5E8;
+			background-color: #C1E6FD;
+			padding: 10px;
+			margin: 3px;
+			text-align: center;
+			grid-area: head;}
+
+nav 		{border: 3px solid #D0A5E8;
+			background-color: #C1E6FD;
+			padding: 10px;
+			margin: 3px;
+			grid-area: navbar;
+			display: grid;
+			grid-template-rows: auto auto auto auto;
+			text-align: center;
+			width: 10em;}
+
+aside 		{border: 3px solid #D0A5E8;
+			background-color: #C1E6FD;
+			padding: 10px;
+			margin: 3px;
+			grid-area: day;}
+
+main 		{border: 3px solid #D0A5E8;
+			background-color: #C1E6FD;
+			padding: 10px;
+			margin: 3px;
+			grid-area: fight;}
+
+article 	{border: 3px solid #D0A5E8;
+			background-color: #C1E6FD;
+			padding: 10px;
+			margin: 3px;
+			grid-area: starts;}
+
+footer		{border: 3px solid #D0A5E8;
+			background-color: #C1E6FD;
+			padding: 10px;
+			margin: 3px;
+			grid-area: foot;
+			display: grid;
+			grid-template-columns: 1fr 1fr;}
+
+a 			{text-decoration: none;
+			color: black;}
+
+p 			{font-family: 'Noto Serif', serif;}
+			
+h3 			{font-size: 20px;}
+
+.Benjamin 	{text-align: right;}

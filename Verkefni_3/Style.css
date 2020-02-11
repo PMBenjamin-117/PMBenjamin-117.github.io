@@ -1,0 +1,62 @@
+body		{display: grid;
+			grid-template-areas:
+			"head head"
+			"navbar navbar"
+			"seasons seasons"
+			"Winter spring"
+			"sumer autumn "
+			"foot foot";
+			background-color: #FFCAC1;}
+
+header		{border: 3px solid #D0A5E8;
+			padding: 10px;
+			margin: 5px;
+			text-align: center;
+			grid-area: head;
+			background-color: #C1E6FD;}
+
+nav 		{border: 3px solid #D0A5E8;
+			padding: 10px;
+			margin: 5px;
+			grid-area: navbar;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			justify-content: center;
+			background-color: #C1E6FD;}
+
+main 		{border: 3px solid #D0A5E8;
+			padding: 10px;
+			margin: 5px;
+			grid-area: seasons;
+			background-color: #C1E6FD;}
+
+aside 		{border: 3px solid #D0A5E8;
+			padding: 10px;
+			margin: 5px;
+			grid-area: Winter;
+			background-color: #C1E6FD;}
+
+article 	{border: 3px solid #D0A5E8;
+			padding: 10px;
+			margin: 5px;
+			grid-area: sumer;
+			background-color: #C1E6FD;}
+
+footer 		{border: 3px solid #D0A5E8;
+			padding: 10px;
+			margin: 5px;
+			text-align: right;
+			grid-area: foot;
+			background-color: #C1E6FD;}
+
+a 			{text-decoration: none;
+			color: black;}
+
+p 			{font-family: 'Noto Serif', serif;}
+
+h3			{text-align: center;
+			font-size: 20px;}
+
+.aside-a 	{grid-area: spring}
+
+.article-a 	{grid-area: autumn;}

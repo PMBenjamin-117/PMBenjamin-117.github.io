@@ -1,0 +1,63 @@
+body 		{display: grid;
+			grid-template-areas:
+			"navbar navbar navbar navbar"
+			"head head head head"
+			"new christ christ year"
+			"foot foot foot foot";
+			background-color: #FFCAC1;}
+
+header 		{border: 3px solid #D0A5E8;
+			background-color: #C1E6FD;
+			padding: 10px;
+			margin: 3px;
+			text-align: center;
+			grid-area: head;}
+
+nav 		{border: 3px solid #D0A5E8;
+			background-color: #C1E6FD;
+			padding: 10px;
+			margin: 3px;
+			grid-area: navbar;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			text-align: center;}
+
+aside 		{border: 3px solid #D0A5E8;
+			background-color: #C1E6FD;
+			padding: 10px;
+			margin: 3px;
+			grid-area: new;}
+
+main 		{border: 3px solid #D0A5E8;
+			background-color: #C1E6FD;
+			padding: 10px;
+			margin: 3px;
+			grid-area: christ;}
+
+section 	{border: 3px solid #D0A5E8;
+			background-color: #C1E6FD;
+			padding: 10px;
+			margin: 20px;}
+
+article 	{border: 3px solid #D0A5E8;
+			background-color: #C1E6FD;
+			padding: 10px;
+			margin: 3px;
+			grid-area: year;}
+
+footer		{border: 3px solid #D0A5E8;
+			background-color: #C1E6FD;
+			padding: 10px;
+			margin: 3px;
+			grid-area: foot;
+			text-align: center;}
+
+a  			{text-decoration: none;
+			color: black;}
+
+p 			{padding: 10px;
+			font-family: 'Noto Serif', serif;}
+
+h3			{font-size: 20px;}
+
+.text 		{text-align: center;}
